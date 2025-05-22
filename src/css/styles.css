@@ -1,0 +1,187 @@
+/* Declaration of variables CSS */
+:root {
+    --colorUno: #DFEEEE;
+    --colorDos: #FFE08C;
+    --colorTres: #4DBDEB;
+    --colorCuatro: #FFFFFF;
+    --colorCinco: #d9d9d9;
+    --colorSeis: #000000;
+    --fuentePrincipal: "GFS Neohellenic", sans-serif;
+    --fuenteSecundaria: "IBM Plex Sans", sans-serif;
+    --fuenteTerciaria: "Inria Sans", sans-serif;
+}
+/* General styles for the document HTML  */
+html {
+    background-color: var(--colorCuatro);
+}
+
+body {
+    font-family: var(--fuenteTerciaria);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0;
+}
+
+ul li a {
+    color: var(--colorSeis);
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Containers */
+.container {
+    text-align: center;
+    background-color: var(--colorUno);
+    margin: 0;
+    
+}
+
+
+.navbar_container {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.navbar_container2 {
+    justify-content: center;
+    background-color: var(--colorCinco);
+    align-items: end;
+}
+
+.navbar_logo {
+    font-family: var(--fuentePrincipal);
+    color: var(--colorSeis);
+    margin: 0;
+    cursor: pointer;
+}
+
+.navbar_logo--primary {
+    color: var(--colorTres);
+}
+/*Imagenes centrales*/
+.nav_img_container{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 1.5rem 1.5rem;
+    border-radius: 5px;
+    background-color: var(--colorCinco);
+
+}
+.img_container{
+       display: flex; 
+       flex-direction: row;
+       flex-wrap: nowrap;
+       justify-content: center;
+       align-items: center;
+       align-content: center;
+       gap: 10px;
+       
+}
+
+/* Hero section */
+.hero_text {
+    margin-left: 1%;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+    justify-content: center;
+    align-content: center;
+    background-color: var(--colorDos);
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+}
+
+.hero_buttons{
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.service_buttons {
+    margin-top: 2.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1rem;
+    width: 90%;
+    align-items: center;
+}
+.title_bottons{
+    text-align: center;
+}
+
+/* Buttons */
+.button {
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-family: var(--fuenteSecundaria);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+}
+
+.hero_button--primary {
+    background-color: var(--colorDos);
+    color:var(--colorSeis);
+}
+
+.hero_button--secondary {
+    background-color: var(--colorDos);
+    color: var(--colorSeis);
+}
+
+.hero_button--terciary {
+    background-color: var(--colorDos);
+    color: var(--colorSeis);
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+.button i {
+    font-size: 1.5rem;
+}
+
+
+
+
+/* Media Queries */
+@media (min-width: 768px) {
+    
+    .nav_img_container{
+        margin-left: 25%;
+        margin-right: 25%;
+        padding: 1.5rem 1.5rem;
+        border-radius: 5px;
+        background-color: var(--colorCinco);
+
+    }
+    .navbar_container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .logo_img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .hero {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
