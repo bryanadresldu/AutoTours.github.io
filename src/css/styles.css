@@ -60,10 +60,13 @@ ul li a {
     color: var(--colorSeis);
     margin: 0;
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar_logo--primary {
     color: var(--colorTres);
+
 }
 /*Imagenes centrales*/
 .nav_img_container{
@@ -84,7 +87,12 @@ ul li a {
        gap: 10px;
        
 }
-
+.logo_img {
+      
+        justify-content: center;
+        align-content: center;
+        margin-bottom: 1%;
+    }
 /* Hero section */
 .hero_text {
     margin-left: 1%;
@@ -174,8 +182,10 @@ ul li a {
     }
 
     .logo_img {
-        width: 50px;
-        height: 50px;
+        width: 55px;
+        height: 55px;
+        justify-content: center;
+        align-content: center;
     }
 
     .hero {
