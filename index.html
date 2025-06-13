@@ -1,99 +1,255 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="./src/css/normalize.css">
-    <link rel="stylesheet" href="./src/css/styles.css">
-    <link rel="shortcut icon" href="https://i.ibb.co/nsdP38f7/logo3.png" type="image/x-icon">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AUTO-TOURS</title>
+  <link rel="stylesheet" href="./src/css/normalize.css" />
+  <link rel="stylesheet" href="./src/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-     <!-- Start - Section Header -->
-    <header class="container">
-       
-            <nav class="navbar_container">
-                    <div class="logo_img">
-                    <img src="src/images/logo3.png" alt="logo" width="90" height="90">
-                    </div>
-                    <h1 class="navbar_logo">AUTO-<span class="navbar_logo--primary">TOURS</span></h1>
-                    <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Servicios</a></li>
-                        <li><a href="#">Descargar</a></li>
-                        <li><a href="#">Galería</a></li>
-                        <li><a href="#">Contacto</a></li>
-                    </ul>
 
-                    
-            </nav>   
-            <nav class="navbar_container2">
-                <ul>
-                        <li><a href="#">Ayuda</a></li>
-                        <li><a href="#">Login</a></li>
-                    </ul> 
-                    
-            </nav>  
-    </header>
-     
-<!-- End - Section Header -->
-     
-<!-- Start - Imagenes centrales -->
-    <section class="nav_img_container">
-        <div class="img_container">
-                <img src="src/images/sanfrancisco.jpg" alt="sanfrancisco" width="150" height="250">
-                <img src="src/images/cotopaxi.jpg" alt="cotopaxi" width="150" height="250">
+
+  <header>
+    <div class="logo">
+      <img src="./src/images/logo.png" alt="logo" />
+    </div>
+<nav class="navbar">
+  <a href="#" class="btn-primary">🏠 Inicio</a>
+  <a href="#" class="btn-primary">🛠️ Servicios</a>
+  <a href="#" class="btn-primary">📱 Descargar App</a>
+  <a href="#" class="btn-primary">🖼️ Galería</a>
+  <a href="#" class="btn-primary">📞 Contacto</a>
+</nav>
+
+<div class="login">
+  <a href="#" class="btn-primary">❓ Ayuda</a>
+  <a href="#" class="btn-primary">🔐 Login</a>
+</div>
+
+  </header>
+
+<div class="main-container">
+  <div class="main-title">AUTO-<span>TOURS</span></div>
+
+  <div class="gallery">
+    <img src="./src/images/imagen 1.jpg" alt="Imagen 1" />
+    <img src="./src/images/imagen 2.jpg" alt="Imagen 2" />
+  </div>
+</div>
+
+
+  <div class="content">
+    <div class="about">
+      <h3>Nosotros</h3>
+      <div class="about-box">
+        <h4>¿Quiénes somos?</h4>
+        <p>Somos una empresa de turismo que combina movilidad segura con rutas turísticas auténticas y personalizadas, para que descubras cada destino de forma cómoda y confiable.</p>
+        <h5>Visión:</h5>
+        <p>Ser la plataforma líder en turismo, conectando tecnología, cultura local y transporte seguro para transformar la forma en que las personas exploran nuevos lugares.</p>
+        <h6>Misión:</h6>
+        <p>Brindar recorridos únicos y accesibles, guiados por expertos locales, para ofrecer experiencias turísticas seguras, responsables y memorables.</p>
+      </div>
+    </div>
+
+    <div class="options">
+      <div class="option-buttons">
+        <button>📍 Rutas</button>
+        <button>🚗 Vehículos</button>
+        <button>🧭 Itinerario</button>
+      </div>
+      <div class="imagen">
+        <img src="./src/images/imagen 3.jpg" alt="Imagen 3" />
+      </div>
+    </div>
+  </div>
+
+
+<section class="flex-container">
+  <section class="service">
+    Servicios
+  </section>
+
+  <div class="services-column">
+    <div class="service-card">
+      <h3>🚗 Alquiler de Autos</h3>
+      <p>Elige entre una amplia variedad de vehículos modernos y cómodos para todos tus trayectos, ya sea en la ciudad o fuera de ella.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>📍 Localización en Tiempo Real</h3>
+      <p>Sigue tu vehículo al instante desde tu móvil y conoce su ubicación con precisión en todo momento.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>⏱️ Reservas Rápidas</h3>
+      <p>Reserva en pocos clics y recibe confirmación inmediata. ¡Tu viaje comienza sin demoras!</p>
+    </div>
+
+    <div class="service-card">
+      <h3>🛠️ Asistencia 24/7</h3>
+      <p>Nuestro equipo está disponible todo el día para ayudarte ante cualquier inconveniente durante tu recorrido.</p>
+    </div>
+  </div>
+
+  <div class="image-box">
+    <img src="./src/images/imagen4.jpg" alt="Collage Quito">
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<!-- Start - Section App -->
+<section class="container app">
+  <div class="mobile">
+    <h2 class="mobile__title">Descarga la aplicación</h2>
+  <div class="mobile__description">
+  <p><i class="fas fa-mobile-alt"></i> Lleva el volante en tu bolsillo con nuestra app.</p>
+  <p><i class="fas fa-map-marked-alt"></i> Reserva, gestiona y localiza tus rutas favoritas.</p>
+  <p><i class="fas fa-bell"></i> Recibe notificaciones en tiempo real.</p>
+</div>
+
+    <div class="mobile__buttons">
+      <img src="./src/images/appstore.png" alt="App Store" width="200" height="100" loading="lazy">
+      <img src="./src/images/googleplay.png" alt="Google Play" width="200" height="100" loading="lazy">
+    </div>
+  </div>
+  <div class="mobile__img">
+    <img src="./src/images/Phone.jpg" alt="Carmobile" loading="lazy">
+  </div>
+</section>
+<!-- End - Section App -->
+
+
+
+<!-- Sección de Testimonios -->
+<section class="testimonials" id="testimonios">
+  <h2>Lo que dicen nuestros clientes</h2>
+  <div class="testimonials-container">
+
+    <div class="testimonial-card">
+      <p class="testimonial-text">"Gracias a AUTO-TOURS descubrimos los lugares más increíbles de la ciudad sin preocuparnos por el tráfico."</p>
+      <div class="testimonial-user">
+        <img src="https://i.pravatar.cc/80?img=12" alt="Foto cliente">
+        <div>
+          <h4>Ana Gómez</h4>
+          <span>Turista de España</span>
         </div>
-    </section>
-<!-- End - Imagenes centrales-->
+      </div>
+    </div>
 
-     <!-- Start - Section Main -->
-    <main class="hero">
-        <section class="hero_text">
-            <h2 class="hero_title"><span class="hero_title--primary">Viaja seguro</span> viaja con nosotros</h2>
-           <h3>¿Quiénes somos?</h3>
-            <p>Somos una empresa de turismo que combina movilidad segura con rutas turísticas auténticas y personalizadas, para que descubras cada destino de forma cómoda y confiable.
-            </p>
-            <h3>Visión</h3>
-            <p>Ser la plataforma líder en turismo, conectando tecnología, cultura local y transporte seguro para transformar la forma en que las personas exploran nuevos lugares.
-            </p>
-             <h3>Misión</h3>
-            <p>Brindar recorridos únicos y accesibles, guiados por expertos locales, para ofrecer experiencias turísticas seguras, responsables y memorables.<br>
-            </p>
-        </section>
+    <div class="testimonial-card">
+      <p class="testimonial-text">"Los guías fueron muy amables y el recorrido súper completo. ¡Una experiencia inolvidable!"</p>
+      <div class="testimonial-user">
+        <img src="https://i.pravatar.cc/80?img=22" alt="Foto cliente">
+        <div>
+          <h4>Carlos López</h4>
+          <span>Viajero frecuente</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial-card">
+      <p class="testimonial-text">"Pude conocer la historia y los principales puntos turísticos de forma cómoda y segura."</p>
+      <div class="testimonial-user">
+        <img src="https://i.pravatar.cc/80?img=32" alt="Foto cliente">
+        <div>
+          <h4>Laura Méndez</h4>
+          <span>Turista Argentina</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
 
 
-         <aside class="hero_buttons">
-            <div class="title_bottons">
-            <h2>Servicios</h2>
+
+
+
+
+
+
+<section class="Contacto container contact">
+  <div class="contact__form">
+    
+<div class="contact__intro">
+  <ul class="contact__list">
+    <li>➤ Conéctate con nosotros y arranca tu próxima aventura.</li>
+    <li>➤ Atención directa por chat, correo o teléfono cuando lo necesites.</li>
+    <li>➤ Viaja seguro, viaja feliz, estamos contigo en cada kilómetro.</li>
+  </ul>
+</div>
+
+
+    <h2 class="contact__title">Reserva con nosotros</h2>
+
+    <form action="https://formsubmit.co/autotours2025g2@gmail.com" method="POST">
+      <input type="text" name="nombre" placeholder="Nombre" required>
+      <input type="email" name="correo" placeholder="Correo" required>
+      <input type="tel" name="celular" placeholder="Celular" required>
+      <textarea name="observaciones" placeholder="Observaciones" rows="4"></textarea>
+      
+      <label class="checkbox__label">
+        <input type="checkbox" required>
+        Términos y condiciones
+      </label>
+
+      <button type="submit" class="btn button contact__submit">Enviar</button>
+    </form>
+  </div>
+
+  <div class="contact__map">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31918.39473858968!2d-78.51998292568359!3d-0.17672040000000047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a70ed4eba8f%3A0xc1de621e4bfbd4f2!2sQuito%20City%20Tour%20%26%20Travel!5e0!3m2!1ses-419!2sec!4v1749424173002!5m2!1ses-419!2sec" 
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+
+    </iframe>
+  </div>
+</section>
+
+
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__social">
+                <h3>Síguenos en redes</h3>
+                <div class="social__icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
             </div>
-            <div class="service_buttons">
-                <a href="#" class="button hero_button--primary">
-                    Rutas
-                    <i class="fas fa-map-marked-alt"></i>
-                </a>
-                <a href="#" class="button hero_button--secondary">
-                    Vehículos
-                    <i class="fas fa-car-side"></i>
-                </a>
-                <a href="#" class="button hero_button--terciary">
-                    Itinerario
-                    <i class="fas fa-calendar-alt"></i>
-                </a>
+
+            <div class="footer__links">
+                <h3>Enlaces de interés</h3>
+                <div class="links">
+                    <a href="#">Soporte técnico</a>
+                    <a href="#">Blog de noticias</a>
+                    <a href="#">Preguntas frecuentes (FAQ)</a>
+                </div>
             </div>
-                
-        </aside>
-        
-    </main>
-    <!-- End - Section Main -->
+
+            <div class="footer__contact">
+                <h3>Llámamos</h3>
+                <p class="call">(593)962985693</p>
+                <h3>Escríbenos</h3>
+                <p class="write">electrostation@gmail.com</p>
+            </div>
+        </div>
+
+        <hr/>
+        <p class="footer__copy">© Derechos Reservados - Grupo#2</p>
+    </footer>
+
 </body>
 </html>
